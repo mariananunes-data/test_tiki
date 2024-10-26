@@ -1,0 +1,284 @@
+[0m00:39:35.641610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE20967B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE1C3D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE4A27ED0>]}
+
+
+============================== 00:39:35.645698 | b2121701-2a01-4b5d-9144-c3b28f64e8d2 ==============================
+[0m00:39:35.645698 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:39:35.646565 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m00:39:43.807481 [debug] [MainThread]: Starter project path: C:\Users\maria\Documents\dbt_project\venv\Lib\site-packages\dbt\include\starter_project
+[0m00:39:43.821335 [info ] [MainThread]: 
+Your new dbt project "deduplicate" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:39:43.824196 [info ] [MainThread]: Setting up your profile.
+[0m00:43:17.631413 [info ] [MainThread]: Profile deduplicate written to C:\Users\maria\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:43:17.647354 [debug] [MainThread]: Command `dbt init` succeeded at 00:43:17.646219 after 222.28 seconds
+[0m00:43:17.649699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE6A623F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE4CFA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBE6A8D260>]}
+[0m00:43:17.651378 [debug] [MainThread]: Flushing usage events
+[0m00:43:28.798373 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m00:47:43.382782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000232294267B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023228FCD950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002322BDB7ED0>]}
+
+
+============================== 00:47:43.387310 | 93e94b8d-2bb9-440d-8905-076e95ebbff6 ==============================
+[0m00:47:43.387310 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:47:43.394431 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:47:43.410897 [info ] [MainThread]: dbt version: 1.8.8
+[0m00:47:43.411323 [info ] [MainThread]: python version: 3.13.0
+[0m00:47:43.411718 [info ] [MainThread]: python path: C:\Users\maria\Documents\dbt_project\venv\Scripts\python.exe
+[0m00:47:43.412344 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m00:47:43.785502 [info ] [MainThread]: Using profiles dir at C:\Users\maria\.dbt
+[0m00:47:43.786171 [info ] [MainThread]: Using profiles.yml file at C:\Users\maria\.dbt\profiles.yml
+[0m00:47:43.786671 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\maria\Documents\dbt_project\dbt_project.yml
+[0m00:47:43.787182 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m00:47:43.788297 [debug] [MainThread]: Command `dbt debug` failed at 00:47:43.788207 after 0.55 seconds
+[0m00:47:43.788520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002322DEF0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002322CEF9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002322CE65370>]}
+[0m00:47:43.788743 [debug] [MainThread]: Flushing usage events
+[0m00:48:39.981242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4927C67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E49236D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E495147ED0>]}
+
+
+============================== 00:48:39.984634 | b18b5bc1-5b9f-4198-b6d4-e77d5b3065a0 ==============================
+[0m00:48:39.984634 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:48:39.985351 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m00:48:40.004887 [info ] [MainThread]: dbt version: 1.8.8
+[0m00:48:40.005609 [info ] [MainThread]: python version: 3.13.0
+[0m00:48:40.006026 [info ] [MainThread]: python path: C:\Users\maria\Documents\dbt_project\venv\Scripts\python.exe
+[0m00:48:40.007359 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m00:48:40.283646 [info ] [MainThread]: Using profiles dir at C:\Users\maria\.dbt
+[0m00:48:40.284349 [info ] [MainThread]: Using profiles.yml file at C:\Users\maria\.dbt\profiles.yml
+[0m00:48:40.284858 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\maria\Documents\dbt_project\dbt_project.yml
+[0m00:48:40.286108 [info ] [MainThread]: adapter type: snowflake
+[0m00:48:40.286642 [info ] [MainThread]: adapter version: 1.8.4
+[0m00:48:40.287162 [info ] [MainThread]: Configuration:
+[0m00:48:40.287610 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:48:40.288053 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m00:48:40.288486 [info ] [MainThread]: Required dependencies:
+[0m00:48:40.288995 [debug] [MainThread]: Executing "git --help"
+[0m00:48:40.294714 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m00:48:40.295484 [info ] [MainThread]: Connection:
+[0m00:48:40.296104 [info ] [MainThread]:   account: https://lwnwyeb.snowflakecomputing.com
+[0m00:48:40.296517 [info ] [MainThread]:   user: marianatestbrazil
+[0m00:48:40.296866 [info ] [MainThread]:   database: DATA
+[0m00:48:40.297271 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m00:48:40.297605 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m00:48:40.297906 [info ] [MainThread]:   schema: PUBLIC
+[0m00:48:40.298204 [info ] [MainThread]:   authenticator: None
+[0m00:48:40.298542 [info ] [MainThread]:   oauth_client_id: None
+[0m00:48:40.298847 [info ] [MainThread]:   query_tag: None
+[0m00:48:40.299539 [info ] [MainThread]:   client_session_keep_alive: False
+[0m00:48:40.299950 [info ] [MainThread]:   host: None
+[0m00:48:40.300282 [info ] [MainThread]:   port: None
+[0m00:48:40.300747 [info ] [MainThread]:   proxy_host: None
+[0m00:48:40.301246 [info ] [MainThread]:   proxy_port: None
+[0m00:48:40.301807 [info ] [MainThread]:   protocol: None
+[0m00:48:40.302387 [info ] [MainThread]:   connect_retries: 1
+[0m00:48:40.302792 [info ] [MainThread]:   connect_timeout: None
+[0m00:48:40.303218 [info ] [MainThread]:   retry_on_database_errors: False
+[0m00:48:40.303687 [info ] [MainThread]:   retry_all: False
+[0m00:48:40.304043 [info ] [MainThread]:   insecure_mode: False
+[0m00:48:40.306073 [info ] [MainThread]:   reuse_connections: None
+[0m00:48:40.308683 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m00:48:40.309607 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m00:48:40.310102 [debug] [MainThread]: Using snowflake connection "debug"
+[0m00:48:40.310736 [debug] [MainThread]: On debug: select 1 as id
+[0m00:48:40.311664 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:48:52.274370 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m00:48:52.274745 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m00:48:52.275036 [debug] [MainThread]: On debug: No close available on handle
+[0m00:48:52.275269 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m00:48:52.276306 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m00:48:52.278244 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\maria\Documents\dbt_project\dbt_project.yml> not found
+
+[0m00:48:52.278855 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m00:48:52.279246 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m00:48:52.280444 [debug] [MainThread]: Command `dbt debug` failed at 00:48:52.280331 after 12.41 seconds
+[0m00:48:52.280704 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:48:52.280932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4972389D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E49720DFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E497175BF0>]}
+[0m00:48:52.281215 [debug] [MainThread]: Flushing usage events
+[0m00:49:03.358546 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m00:49:44.959746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CA5E067B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CA59AD950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CA8797ED0>]}
+
+
+============================== 00:49:44.965522 | 473e3d93-abd6-44c1-a759-848eb543c4c9 ==============================
+[0m00:49:44.965522 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:49:44.966329 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:49:44.986768 [info ] [MainThread]: dbt version: 1.8.8
+[0m00:49:44.987479 [info ] [MainThread]: python version: 3.13.0
+[0m00:49:44.988042 [info ] [MainThread]: python path: C:\Users\maria\Documents\dbt_project\venv\Scripts\python.exe
+[0m00:49:44.988730 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m00:49:45.338258 [info ] [MainThread]: Using profiles dir at C:\Users\maria\.dbt
+[0m00:49:45.339014 [info ] [MainThread]: Using profiles.yml file at C:\Users\maria\.dbt\profiles.yml
+[0m00:49:45.339639 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\maria\Documents\dbt_project\dbt_project.yml
+[0m00:49:45.340997 [info ] [MainThread]: adapter type: snowflake
+[0m00:49:45.341614 [info ] [MainThread]: adapter version: 1.8.4
+[0m00:49:45.342251 [info ] [MainThread]: Configuration:
+[0m00:49:45.342826 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:49:45.343443 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m00:49:45.344097 [info ] [MainThread]: Required dependencies:
+[0m00:49:45.344669 [debug] [MainThread]: Executing "git --help"
+[0m00:49:45.348242 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m00:49:45.349018 [info ] [MainThread]: Connection:
+[0m00:49:45.349834 [info ] [MainThread]:   account: lwnwyeb-cr66126
+[0m00:49:45.351199 [info ] [MainThread]:   user: marianatestbrazil
+[0m00:49:45.352084 [info ] [MainThread]:   database: DATA
+[0m00:49:45.352996 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m00:49:45.353647 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m00:49:45.354166 [info ] [MainThread]:   schema: PUBLIC
+[0m00:49:45.355383 [info ] [MainThread]:   authenticator: None
+[0m00:49:45.355952 [info ] [MainThread]:   oauth_client_id: None
+[0m00:49:45.356533 [info ] [MainThread]:   query_tag: None
+[0m00:49:45.357450 [info ] [MainThread]:   client_session_keep_alive: False
+[0m00:49:45.358411 [info ] [MainThread]:   host: None
+[0m00:49:45.359058 [info ] [MainThread]:   port: None
+[0m00:49:45.359583 [info ] [MainThread]:   proxy_host: None
+[0m00:49:45.360087 [info ] [MainThread]:   proxy_port: None
+[0m00:49:45.360805 [info ] [MainThread]:   protocol: None
+[0m00:49:45.361338 [info ] [MainThread]:   connect_retries: 1
+[0m00:49:45.362228 [info ] [MainThread]:   connect_timeout: None
+[0m00:49:45.362854 [info ] [MainThread]:   retry_on_database_errors: False
+[0m00:49:45.363541 [info ] [MainThread]:   retry_all: False
+[0m00:49:45.364134 [info ] [MainThread]:   insecure_mode: False
+[0m00:49:45.364589 [info ] [MainThread]:   reuse_connections: None
+[0m00:49:45.365645 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m00:49:45.366606 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m00:49:45.367144 [debug] [MainThread]: Using snowflake connection "debug"
+[0m00:49:45.367368 [debug] [MainThread]: On debug: select 1 as id
+[0m00:49:45.367566 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:49:46.486616 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.119 seconds
+[0m00:49:46.487318 [debug] [MainThread]: On debug: Close
+[0m00:49:46.653149 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m00:49:46.654027 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m00:49:46.654631 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\maria\Documents\dbt_project\dbt_project.yml> not found
+
+[0m00:49:46.655463 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m00:49:46.656965 [debug] [MainThread]: Command `dbt debug` failed at 00:49:46.656757 after 2.08 seconds
+[0m00:49:46.657370 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:49:46.657620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CAA8F8180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CAAA0E7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CAA835BF0>]}
+[0m00:49:46.657883 [debug] [MainThread]: Flushing usage events
+[0m00:54:43.367401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DF85B67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DF815D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DFAF37ED0>]}
+
+
+============================== 00:54:43.371006 | b70a3e3c-0918-4fa7-952f-32eb641046ae ==============================
+[0m00:54:43.371006 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:54:43.372165 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run -s .\\models\\orders_main.sql', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:54:43.372642 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:54:43.375363 [debug] [MainThread]: Command `dbt run` failed at 00:54:43.375191 after 0.37 seconds
+[0m00:54:43.375721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DFB149350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DFAFF6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DFAFAE9C0>]}
+[0m00:54:43.375970 [debug] [MainThread]: Flushing usage events
+[0m00:55:07.899242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC06967B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC023D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC3017110>]}
+
+
+============================== 00:55:07.901949 | e5201dd8-d3a4-4a79-88b1-0459cbf184ae ==============================
+[0m00:55:07.901949 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:55:07.902967 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run -s .\\models\\orders_main.sql', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m00:55:07.903339 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:55:07.904640 [debug] [MainThread]: Command `dbt run` failed at 00:55:07.904546 after 0.52 seconds
+[0m00:55:07.904924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC3229350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC30D6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DC308E9C0>]}
+[0m00:55:07.905164 [debug] [MainThread]: Flushing usage events
+[0m00:57:59.307632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF07D67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF037D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF3157ED0>]}
+
+
+============================== 00:57:59.313290 | ee64377a-9342-4546-b330-3a96a13d09a4 ==============================
+[0m00:57:59.313290 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:57:59.314346 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -s .\\models\\orders_main.sql', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:57:59.314840 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:57:59.316404 [debug] [MainThread]: Command `dbt run` failed at 00:57:59.316241 after 0.45 seconds
+[0m00:57:59.316771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF3369350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF3216570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCF31CE9C0>]}
+[0m00:57:59.317116 [debug] [MainThread]: Flushing usage events
+[0m00:59:31.899257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F09B67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F055D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F334BED0>]}
+
+
+============================== 00:59:31.903167 | 2a1cc80b-eef4-4144-aec2-6d93a4274db4 ==============================
+[0m00:59:31.903167 [info ] [MainThread]: Running with dbt=1.8.8
+[0m00:59:31.903896 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt deps', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:59:31.904386 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:59:31.905858 [debug] [MainThread]: Command `dbt deps` failed at 00:59:31.905543 after 0.23 seconds
+[0m00:59:31.906182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F3555350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F3406570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000138F33BE580>]}
+[0m00:59:31.906435 [debug] [MainThread]: Flushing usage events
+[0m01:00:19.130939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B2399F67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B23959D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B23C377ED0>]}
+
+
+============================== 01:00:19.134926 | eb8e0539-52a6-4b02-9169-1fa956370e43 ==============================
+[0m01:00:19.134926 [info ] [MainThread]: Running with dbt=1.8.8
+[0m01:00:19.143563 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:19.144074 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:00:19.145658 [debug] [MainThread]: Command `dbt deps` failed at 01:00:19.145553 after 0.28 seconds
+[0m01:00:19.146025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B23C585350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B23C436570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B23C3EE580>]}
+[0m01:00:19.146363 [debug] [MainThread]: Flushing usage events
+[0m01:02:01.795668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016519DD67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001651997D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001651C767ED0>]}
+
+
+============================== 01:02:01.800536 | e9c44fb4-e8fa-45da-85c2-62772e631fea ==============================
+[0m01:02:01.800536 [info ] [MainThread]: Running with dbt=1.8.8
+[0m01:02:01.804706 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m01:02:01.805238 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:02:01.806853 [debug] [MainThread]: Command `dbt deps` failed at 01:02:01.806747 after 0.17 seconds
+[0m01:02:01.807103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001651C975350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001651C822570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001651C7DE580>]}
+[0m01:02:01.807372 [debug] [MainThread]: Flushing usage events
+[0m01:03:48.138350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B30967B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B2C3D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B5A27ED0>]}
+
+
+============================== 01:03:48.141929 | 8b7bedf2-bb20-4415-88c8-f913daeefbf8 ==============================
+[0m01:03:48.141929 [info ] [MainThread]: Running with dbt=1.8.8
+[0m01:03:48.142942 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\maria\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m01:03:48.143395 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\maria\Documents\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:03:48.144722 [debug] [MainThread]: Command `dbt deps` failed at 01:03:48.144607 after 0.17 seconds
+[0m01:03:48.144975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B5C35350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B5AE2570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172B5A9E580>]}
+[0m01:03:48.145258 [debug] [MainThread]: Flushing usage events
